@@ -125,7 +125,7 @@
       correctAnswer: "c"
     },
     {
-      question: "3. Which tool can you use to ensure code quality?",
+      question: "3. Vad är ARV?",
       answers: {
         a: "Angular",
         b: "jQuery",
