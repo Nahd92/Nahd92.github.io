@@ -116,7 +116,7 @@
       correctAnswer: "c"
     },
     {
-      question: "2. Which one of these is a JavaScript package manager?",
+      question: "2. JavaScript package manager?",
       answers: {
         a: "Node.js",
         b: "TypeScript",
