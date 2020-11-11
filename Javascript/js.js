@@ -116,7 +116,16 @@
       correctAnswer: "c"
     },
     {
-      question: "2. JavaScript package manager?",
+      question: "2. Vad är en typ?",
+      answers: {
+        a: "Douglas Crockford",
+        b: "Sheryl Sandberg",
+        c: "Brendan Eich"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "3. JavaScript package manager?",
       answers: {
         a: "Node.js",
         b: "TypeScript",
@@ -125,7 +134,7 @@
       correctAnswer: "c"
     },
     {
-      question: "3. Vad är ARV?",
+      question: "4. Vad är ARV?",
       answers: {
         a: "Angular",
         b: "jQuery",
