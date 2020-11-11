@@ -107,7 +107,7 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Vad är en Variabel?",
+      question: "1. Vad är en Variabel?",
       answers: {
         a: "Douglas Crockford",
         b: "Sheryl Sandberg",
@@ -116,7 +116,7 @@
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "2. Which one of these is a JavaScript package manager?",
       answers: {
         a: "Node.js",
         b: "TypeScript",
@@ -125,7 +125,7 @@
       correctAnswer: "c"
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "3. Which tool can you use to ensure code quality?",
       answers: {
         a: "Angular",
         b: "jQuery",
