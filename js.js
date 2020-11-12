@@ -109,7 +109,7 @@
   const myQuestions = [
     {
       question: 
-      "1. Sparas referenstyper i Heapen eller Stacken?  (L3)",
+      "1. Sparas referenstyper i Heapen eller Stacken?",
       answers: {
         a: "Heap",
         b: "Stack",
