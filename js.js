@@ -178,10 +178,12 @@
       correctAnswer: "c"
     },
     {
-      question: "8. Kan en klass ärva flera gränssnitt?",
+      question: "8. Om man vill initiera ett nytt object, hur gör man då?",
       answers: {
-        a: "Ja",
-        b: "Nej",
+        a: "Skriver new följt av klassens namn",
+        b: "Det går inte.",
+        c: "Man skriver en ny funktion",
+        d: "Man får använda sig av Add funktion",
       },
       correctAnswer: "a"
     },
@@ -195,7 +197,7 @@
         e: "x + y",
         f: "x * y"
       },
-      correctAnswer: "a"
+      correctAnswer: "b"
     },
     {
       question: "10. Hur definierar man ett tvådimensionellt fält?",
@@ -246,16 +248,17 @@
       correctAnswer: "c"
     },
     {
-      question: "14. Vad står OOP för?",
+      question: "14. Vad är den binäratalet 1000 0001?",
       answers: {
-        a: "Organiserad Orienterad Programmering.",
-        b: "Orienterad Objekteringsprogrammering.",
-        c: "Object-Orienterad Programmering.",
+        a: "234.",
+        b: "23",
+        c: "129",
+        d: "154",
       },
       correctAnswer: "c"
     },
     {
-      question: "15. Om en för lång kedja använder upp allt stackMinne, vad får man då?",
+      question: "15. Om en för lång kedja använder upp allt minne, vad får man då?",
       answers: {
         a: "OutOfMemoryException",
         b: "StackOverflowException",
@@ -304,7 +307,7 @@
       correctAnswer: "d"
     },
     {
-      question: "19. Vilken av följande åtkomstmodiferare har högsta begränsingen?",
+      question: "20. Vilken av följande åtkomstmodiferare har högsta begränsingen?",
       answers: {
         a: "internal",
         b: "private",
@@ -313,6 +316,25 @@
         e: "protected"
       },
       correctAnswer: "c"
+    },
+    {
+      question: "21. Vad står CLR för?",
+      answers: {
+        a: "Common Language Running",
+        b: "Common Language Run",
+        c: "Common Language RunTime",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "22. Vilka av följande språk kan du inte använda i .Net (Endast ett rätt svar)?",
+      answers: {
+        a: "Python",
+        b: "F#",
+        c: "IronRuby",
+        d: "Javascript"
+      },
+      correctAnswer: "d"
     },
   ];
 
