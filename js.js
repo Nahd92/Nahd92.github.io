@@ -167,7 +167,7 @@
     },
 
     {
-      question: "7. Vad är det binartalet 0110 1000 i heltal?",
+      question: "7. Vad är det binära talet 01101000?",
       answers: {
         a: "255",
         b: "128",
@@ -334,6 +334,17 @@
         c: "Hemsida enbart för .NET"
       },
       correctAnswer: "a"
+    },
+    {
+      question: "23. Hur många bitar består ett fält av byte?",
+      answers: {
+        a: "1",
+        b: "2",
+        c: "7",
+        d: "8",
+        e: "10"
+      },
+      correctAnswer: "d"
     },
   ];
 
