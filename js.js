@@ -239,7 +239,7 @@
       correctAnswer: "d"
     },
     {
-      question: "13. Vad står OOP för?",
+      question: "14. Vad står OOP för?",
       answers: {
         a: "Organiserad Orienterad Programmering.",
         b: "Orienterad Objekteringsprogrammering.",
@@ -248,7 +248,7 @@
       correctAnswer: "c"
     },
     {
-      question: "14. Vad är den binäratalet 1000 0001?",
+      question: "15. Vad är den binäratalet 1000 0001?",
       answers: {
         a: "234.",
         b: "23",
@@ -258,7 +258,7 @@
       correctAnswer: "c"
     },
     {
-      question: "15. Om en för lång kedja använder upp allt minne, vad får man då?",
+      question: "16. Om en för lång kedja använder upp allt minne, vad får man då?",
       answers: {
         a: "OutOfMemoryException",
         b: "StackOverflowException",
@@ -268,7 +268,7 @@
       correctAnswer: "b"
     },
     {
-      question: "16. Hur många gränssnitt(Interfaces) kan man implementera hos en klass?",
+      question: "17. Hur många gränssnitt(Interfaces) kan man implementera hos en klass?",
       answers: {
         a: "Precis som arv, endast en.",
         b: "Ingen.",
@@ -278,7 +278,7 @@
       correctAnswer: "d"
     },
     {
-      question: "17. Om man har en sträng och vill ha ut en del av denna vad använder man då?",
+      question: "18. Om man har en sträng och vill ha ut en del av denna vad använder man då?",
       answers: {
         a: ".Split(' ')",
         b: ".Substring(0, 3)",
@@ -287,7 +287,7 @@
       correctAnswer: "b"
     },
     {
-      question: "18. Vad får du ut om du skriver:  var emailsToYoungPeople = from c in contacts where c.Age < 25 select c.Email;",
+      question: "19. Vad får du ut om du skriver:  var emailsToYoungPeople = from c in contacts where c.Age < 25 select c.Email;",
       answers: {
         a: "Alla kontakter där kontakterna är äldre än 25.",
         b: "Alla kontakter där kontakterna är yngre än 25.",
@@ -296,7 +296,7 @@
       correctAnswer: "b"
     },
     {
-      question: "19. Vad i Decimaltal med basen 10 är Hex F?",
+      question: "20. Vad i Decimaltal med basen 10 är Hex F?",
       answers: {
         a: "16",
         b: "24",
@@ -307,7 +307,7 @@
       correctAnswer: "d"
     },
     {
-      question: "20. Vilken av följande åtkomstmodiferare har högsta begränsingen?",
+      question: "21. Vilken av följande åtkomstmodiferare har högsta begränsingen?",
       answers: {
         a: "internal",
         b: "private",
@@ -318,7 +318,7 @@
       correctAnswer: "c"
     },
     {
-      question: "21. Vad står CLR för?",
+      question: "22. Vad står CLR för?",
       answers: {
         a: "Common Language Running",
         b: "Common Language Run",
@@ -327,14 +327,13 @@
       correctAnswer: "c"
     },
     {
-      question: "22. Vilka av följande språk kan du inte använda i .Net (Endast ett rätt svar)?",
+      question: "23. Vad är Git?",
       answers: {
-        a: "Python",
-        b: "F#",
-        c: "IronRuby",
-        d: "Javascript"
+        a: "Versionshantering",
+        b: "Databas",
+        c: "Hemsida enbart för .NET"
       },
-      correctAnswer: "d"
+      correctAnswer: "a"
     },
   ];
 
