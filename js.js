@@ -336,7 +336,7 @@
       correctAnswer: "a"
     },
     {
-      question: "23. Hur många bitar består ett fält av byte?",
+      question: "24. Hur många bitar består ett fält av byte?",
       answers: {
         a: "1",
         b: "2",
