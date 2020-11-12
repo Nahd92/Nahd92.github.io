@@ -66,6 +66,7 @@
       else{
         // color the answers red
         answerContainers[questionNumber].style.color = 'red';
+      
       }
     });
 
@@ -107,42 +108,212 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "1. Vad är en Variabel?",
+      question: 
+      "1. Sparas referenstyper i Heapen eller Stacken?  (L3)",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: "Heap",
+        b: "Stack",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "2. Vilket av följande omvandlar en typ till ett 16-bitars heltal i C #?",
+      answers: {
+        a: "ToDecimal",
+        b: "ToInt16",
+        c: "int.Parse",
+        d: "ToDouble"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "3. Vilket av följande är standardåtkomstspecifikatorn för en klassmedelsvariabel? ",
+      answers: {
+        a: "Private",
+        b: "Protected",
+        c: "public"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "4. Vad står LINQ för?",
+      answers: {
+        a: "Language Integrated Notation Query",
+        b: "Lists In new Query",
+        c: "Language Integrated Query",
+        d: "Vet ej"
       },
       correctAnswer: "c"
     },
     {
-      question: "2. Vad är en typ?",
+      question: "5. Vilken av följande operatorer kan du använda för komma åt en metod av en klass?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: ":",
+        b: "::",
+        c: ".",
+        d: "#"
       },
       correctAnswer: "c"
     },
     {
-      question: "3. JavaScript package manager?",
+      question: "6. Hur många Konstruktorer kan man definera i en klass?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "4. Vad är ARV?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
+        a: "Två är max.",
+        b: "Tre om man lägger in parametrar.",
+        c: "Endast en per klass.",
+        d: "Hur många du vill."
       },
       correctAnswer: "d"
-    }
+    },
+
+    {
+      question: "7. Vad är det binartalet 0110 1000 i heltal?",
+      answers: {
+        a: "255",
+        b: "128",
+        c: "104",
+        d: "69",
+        e: "Vet ej"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "8. Kan en klass ärva flera gränssnitt?",
+      answers: {
+        a: "Ja",
+        b: "Nej",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "9. Vilken av följande Operator har högsta företrädesnivå?",
+      answers: {
+        a: "switch",
+        b: "a[i] och new",
+        c: "x ^ y",
+        d: "x || y",
+        e: "x + y",
+        f: "x * y"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "10. Hur definierar man ett tvådimensionellt fält?",
+      answers: {
+        a: "int[]",
+        b: "int[,,]",
+        c: "int[,]",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "11. Hur många klasser kan en klass ärva?",
+      answers: {
+        a: "1",
+        b: "Inga",
+        c: "Hur många som helst",
+        d: "Vet inte",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "12. Vilket av följande är en tilldelning?",
+      answers: {
+        a: "*=",
+        b: "==",
+        c: "+",
+        d: ">=",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "13. Vilken av följande syntax är rätt om man inte vill returnera något värde?",
+      answers: {
+        a: "public int ReturneraVärde()",
+        b: "public return ReturneraVärde()  ",
+        c: "public ReturneraVärde()",
+        d: "public void ReturneraVärde()",
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "13. Vad står OOP för?",
+      answers: {
+        a: "Organiserad Orienterad Programmering.",
+        b: "Orienterad Objekteringsprogrammering.",
+        c: "Object-Orienterad Programmering.",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "14. Vad står OOP för?",
+      answers: {
+        a: "Organiserad Orienterad Programmering.",
+        b: "Orienterad Objekteringsprogrammering.",
+        c: "Object-Orienterad Programmering.",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "15. Om en för lång kedja använder upp allt stackMinne, vad får man då?",
+      answers: {
+        a: "OutOfMemoryException",
+        b: "StackOverflowException",
+        c: "InvalidCastException",
+        d: "IndexOutOfRangeException"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "16. Hur många gränssnitt(Interfaces) kan man implementera hos en klass?",
+      answers: {
+        a: "Precis som arv, endast en.",
+        b: "Ingen.",
+        c: "Två.",
+        d: "Flera."
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "17. Om man har en sträng och vill ha ut en del av denna vad använder man då?",
+      answers: {
+        a: ".Split(' ')",
+        b: ".Substring(0, 3)",
+        c: ".Trim()",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "18. Vad får du ut om du skriver:  var emailsToYoungPeople = from c in contacts where c.Age < 25 select c.Email;",
+      answers: {
+        a: "Alla kontakter där kontakterna är äldre än 25.",
+        b: "Alla kontakter där kontakterna är yngre än 25.",
+        c: "Alla Email från kontakter. ",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "19. Vad i Decimaltal med basen 10 är Hex F?",
+      answers: {
+        a: "16",
+        b: "24",
+        c: "13",
+        d: "15",
+        e: "17"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "19. Vilken av följande åtkomstmodiferare har högsta begränsingen?",
+      answers: {
+        a: "internal",
+        b: "private",
+        c: "private protected",
+        d: "public",
+        e: "protected"
+      },
+      correctAnswer: "c"
+    },
   ];
 
   // Kick things off
@@ -162,20 +333,3 @@
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
 })();
-
-
-
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 11000); // Change image every 2 seconds
-}
